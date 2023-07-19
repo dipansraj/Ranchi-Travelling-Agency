@@ -1,0 +1,439 @@
+<html>
+    <head>
+        <title>Drshan</title>
+        <style type="text/css">
+            
+            #topper
+            {
+               
+                width:1250px;
+                margin : 10px auto;
+                height: 120px;
+                opacity: 0.9;
+                text-align: center;
+                color: bisque;
+                
+
+            }
+            body{
+                background-image: url("images/trees2.jpg");
+                background-size:1390px 1537px;
+                margin: 0;
+                padding: 0;
+            }
+           
+            #darshan
+            {
+                
+               width: 30px;
+               height: 30px;
+               margin:0px 0px;
+               
+               font-style: italic;
+               
+            }
+
+            a:hover
+            {
+                background-color: yellowgreen;
+            }
+
+            a:visited{
+                color:brown;
+            }
+            a:link
+            {
+                color:palevioletred;
+                
+            }
+            a:active
+            {
+                color: yellow;
+            }
+            .about
+            {
+                float:left;
+                
+                font-family: Arial, Helvetica, sans-serif;
+                font-size: larger;
+                padding-left: 160px;
+                color: blanchedalmond;
+                position:relative;
+                margin-top: 25px;
+                
+            }
+            .plans
+            {
+                float:left;
+                font-family: Arial, Helvetica, sans-serif;
+                color: blanchedalmond;
+                font-size: larger;
+                padding-left: 160px;
+                position:relative;
+                margin-top: 25px;
+            }
+            .our_vehicles
+            {
+                float:left;
+                font-family: Arial, Helvetica, sans-serif;
+                font-size: larger;
+                padding-left: 160px;
+                color: blanchedalmond;
+                position:relative;
+                margin-top: 25px;
+            }
+            .contact
+            {
+                float :left;
+                font-family: Arial, Helvetica, sans-serif;
+                font-size: larger;
+                padding-left: 160px;
+                color: blanchedalmond;
+                position:relative;
+                margin-top: 25px;
+            }
+            #pics
+            {
+
+            }
+            #falls
+            {
+                
+                font-family: 'Times New Roman', Times, serif;
+                width:1300px;
+                margin-left: 40px;
+                color: black;
+                text-shadow: black;
+                
+               
+            }
+            #falls1
+            {
+               
+               font-family: 'Times New Roman';
+               padding-left: 120px;
+               color: rgb(12, 9, 1);
+               text-shadow: rgb(185, 49, 156);
+               font-weight: 200;
+               font-size: large;
+               font-display: bold;
+
+            }
+            #scenic
+            {
+                
+                
+                font-family: 'Times New Roman', Times, serif;
+                width:1300px;
+                margin-left: 40px;
+                color: black;
+                text-shadow: black;
+               
+            
+            }
+            #scenic1
+            {
+               
+               font-family: 'Times New Roman';
+               padding-left: 120px;
+               color: rgb(1, 28, 110);
+               text-shadow: rgb(3, 0, 3);
+               
+              
+               
+
+            }
+
+            #temples
+            {
+                
+                font-family: 'Times New Roman', Times, serif;
+                width:1300px;
+                margin-left: 40px;
+               
+            }
+            #temples1
+            {
+               
+               font-family: 'Times New Roman';
+               padding-left: 120px;
+               color: rgb(255, 253, 253);
+               text-shadow: rgb(3, 0, 3);
+               
+              
+               
+
+            }
+
+
+            #body_about
+            {
+                font-family:Georgia, 'Times New Roman', Times, serif;
+                font-size: large;
+                float:left;
+                position:relative;
+                background-color: rgba(152, 66, 211, 0.8);
+                margin-left: 0px;
+                padding-left: 20px;
+                padding-right: 20px;
+                width:1300px;
+                height: 370px;
+                text-align: justify;
+                text-decoration:dashed;
+                
+                
+            }
+
+            #adv
+            {
+                
+            }
+            #plans
+            {
+                font-family:Georgia, 'Times New Roman', Times, serif;
+                
+                font-size: large;
+                float:left;
+                position:relative;
+                font-style: oblique;
+                
+                margin-left: 0px;
+                padding-left: 20px;
+                padding-right: 20px;
+                width:1300px;
+                text-align: justify;
+                text-decoration:dashed;
+                background-color: rgba(57, 156, 180, 0.8);
+                
+                
+                
+            }
+
+            #vehicles
+            {
+                font-family:Georgia, 'Times New Roman', Times, serif;
+                font-size: large;
+                float:left;
+                position:relative;
+                background-color: rgba(66, 211, 102, 0.8);
+                
+                
+                margin-left: 0px;
+                padding-left: 20px;
+                padding-right: 20px;
+                width:1300px;
+                text-align: justify;
+                text-decoration:dashed;
+            }
+            #contact
+            {
+                
+                font-size: larger;
+                margin-left: 40px;
+                padding-left: 20px;
+                padding-right: 20px;
+                width:1300px;
+                text-align: justify;
+                text-decoration:dashed;
+            }
+            #wa
+            {
+                float:left;
+                width:600px;
+            }
+            
+            #mail
+            {
+                
+
+            }
+            
+
+           
+
+        </style>
+    </head>
+    <body>
+        
+        
+        <div id="topper">
+           
+            <div id="darshan"><b>Darshan.com</b></div>
+            <div class="about"><B><a href="#body_about">ABOUT</a></B></div>
+            <div class="plans"><B><a href="#plans">TRIP PLANS</a></B></div>
+            <div class="our_vehicles"><B><a href="#vehicles">OUR VEHICLES</a></B></div>
+            <div class="contact"><B><a href="#wa">CONTACT US</a></B></div>
+        </div>
+
+
+        <div id="pics">
+            <div id="falls">
+                <p> <b>Falls to visit</b></p>
+                <img src="images/dasam.jpeg" height="320px" width="320px">
+                <img src="images/hudru.jpg" height="320px" width="320px">
+                <img src="images/jonha.png" height="320px" width="320px">
+                <img src="images/sheeta.jpg" height="320px" width="320px">
+
+                <div id="falls1">
+                    <p> <b>DASAM FALL</b> &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+                        &nbsp&nbsp &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+                         <b> HUNDRU FALL</b> &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+                        &nbsp&nbsp
+                        &nbsp&nbsp &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+                        <b>JONAH FALL</b> &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+                       &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+                        &nbsp&nbsp&nbsp&nbsp&nbsp <b>SHITA FALL</b></p>
+                    
+                    
+                </div>
+            </div>
+           
+               
+         </div>
+            
+            <br><br><br>
+            <div id="scenic">
+                <p><b><b><h3>Scenic sites to visit</h3></b></b></p>
+                <img src="images/patratu.png" height="320px" width="320px">
+                <img src="images/rock.jpg" height="320px" width="320px">
+                <img src="images/kanke.jpg" height="320px" width="320px">
+                <img src="images/dhurwa.jpg" height="320px" width="320px">
+                <p> <div id="scenic1">
+                     <b>PATRATU VALLEY</b> &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+                    &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+                    &nbsp&nbsp &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+                    &nbsp&nbsp&nbsp&nbsp&nbsp <b> ROCK GARDEN</b> &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+                    &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+                    &nbsp&nbsp &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+                    &nbsp&nbsp&nbsp&nbsp&nbsp <b>KANKE DAM</b> &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+                    &nbsp&nbsp&nbsp&nbsp&nbsp
+                    &nbsp&nbsp &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+                    &nbsp&nbsp&nbsp&nbsp&nbsp<b> DHURVA DAM</b></p>
+            </div>
+            </div>
+            <br><br><br>
+            <div id="temples">
+                <p><b><h3>Temples to visit</h3></b></p>
+                <img src="images/pahadi.jpg" height="320px" width="320px">
+                <img src="images/backg.jpg" height="320px" width="320px">
+                <img src="images/surya.png" height="320px" width="320px">  
+                <img src="images/deodi.jpg" height="320px" width="320px"> 
+                <div id="temples1">
+                <P> <b>PAHADI MANDIR</b> &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+                    
+                    &nbsp&nbsp &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+                    &nbsp&nbsp&nbsp&nbsp&nbsp  <b>JAGNNATH MANDIR</b> &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+                    &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+                    &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+                    &nbsp&nbsp&nbsp&nbsp&nbsp<b> SURYA MANDIR</b> &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+                    &nbsp&nbsp&nbsp&nbsp&nbsp
+                    &nbsp&nbsp &nbsp&nbsp&nbsp&nbsp&nbsp
+                    &nbsp&nbsp&nbsp&nbsp&nbsp <b>DEODI MANDIR</b></P>
+                </div>
+            </div>
+               
+           
+
+       
+
+        <div id="body_about"> 
+            <p><b><h2>About</h2></b></p>
+            <p>We provide travelling the city Ranchi with a guide at very cheap cost depending upon the number of members of family,famalies
+                in a large vehicle or vehicle you choose, You can travel through various <b><a href="#vehicles">vehicles</a></b> according to your 
+            need. We have plans from 1 day to 4 day trip of the city, We cover places like falls, temples, parks, zoo, etc dependent upon
+            the number of days you choose. Falls included are Hundru, Jonah and Dasam, temples included are Pahari Mandir, Surya
+             Mandir Bundu, Jagnnath Mandir and getalsud,  Birsa Munda jaivik udyan as zoo,  Patratu valley, rock garden, Kanke dam, Dhurva dam
+             as scenic sights. We give special discounts to the people belonging to Ranchi. We also provide rooms if you want, mainly for the
+             people who reside outside the city and came to city mainly for sightseeing. Our plans costs less than the vehicles people take
+             on rent, A rented vehicle generally takes 1500/day+ petrol, we take very less than that, further you will get to know about this at
+             <b><a href="#plans">trip plans</a></b> section. Moreover we provide a guide who will direct you, who have knowledge of every sight of the city, they 
+             are drivers too, they are humble in talking and a good guide. <b>We provide rooms also at very low cost of 400/room that
+                have capacity of 3 to 5 people. Its not compulsory to travel for all three days, we charge only for the days you travel.
+             </b>
+         </p>
+
+        </div>
+            
+
+
+
+
+        <div id="plans">
+
+            <br><br><br><br><br><br>
+            <p><b><h2><i>TRIP PLANS :-</i></h2></b></p><br><br>
+            <p><h3>One day trip- Rock garden, Kanke dam, Hundru fall, Patratu valley</p><br>
+            <p><h3>Two day trip- <p> First day- Rock garden, Kanke dam, Hundru fall, Patratu valley</p>
+                <p>Second day- Dasam fall, Surya Mandir, Deodi Mandir, Jonah fall</p></h3></p><br>
+            <p><h3>Three day trip- <p>First day- Rock garden, Kanke dam, Hundru fall, Patratu valley</p>
+                <p>Second day- Dasam fall, Surya Mandir, Deodi Mandir,</p>
+                <p>Third day- Ormanjhi zoo, Ormanjhi water aprk, Getlatun Devi Darshan, Jonah Fall, Sita fall</p></h3></p>
+                <br><br><br><br><br><br><br><br><br>
+            <br><br><br><br><br><br><br><br><br><br><br><br><br>
+            
+        </div>
+
+        <div id="vehicles">
+            <p><h3><b>Vehicles we provide :-</b></h3></p>
+            <ul>
+                <li>7 seater. It is typically a van that have lot of inner space.
+                    <img src="images/eco.png" height="190px" width="290px">
+                </li>
+                <br><br><br><br><br><br><br><br><br>
+                <li>4 seater, If you are a small family then this car is best for you
+                     <img src="images/alto.webp" height="190px" width="390px">
+                     
+                </li>
+                <br><br><br><br><br><br><br><br><br>
+                <li>9 Seather, this XUV gives you adventures feeling
+                    <img src="images/sco6.png" height="290px" width="490px">
+                </li>
+                <br><br><br><br><br><br><br><br><br>
+                <LI>Sudan that have capacity of 5 people
+                    <img src="images/city6.png" height="190px" width="340px">  
+                </LI>
+
+                <br><br><br><br><br>
+                <li>Bike- This is best for one person, you can also enjoy solo trip and  take
+                    the bike on rent :).
+                    <img src="images/bull3.png" height="270px" width="340px"> 
+
+                </li>
+            </ul>
+
+            <p><b>note-</b> the above number of seats excludes driver/guide.</p>
+            <img src="images/price4.png" height="500px" width="1240px"> 
+
+            <p><b><h3>Note :</h3></b> &nbsp Its not compulsory to travel for all three days, we charge only for the days you travel.</p>
+        </div>
+
+
+
+        <div id="contact">
+            <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+            <p><b><h2>Contact us :-</h2></b></p>
+            
+            <div id="wa">
+            <img src="images/walogo.png" height="120px" width="300px"> 
+            
+            <b><h3> &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp +91 8102320370</h3></b>
+            </div>
+            <br>
+            <div id="mail">
+                <img src="images/gmaillogo.png" height="80px" width="200px"><br><br>
+                <b><h3> dipanshuraj7217@gmail.com</h3></b>
+    
+            </div>
+    
+        </div>
+        
+            
+           
+        
+        </body>
+        
+    
+        
+        
+    </body>
+</html>
